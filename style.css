@@ -1,8 +1,15 @@
+*{
+    font-family: "Franklin Gothic";
+}
 body{
     margin: 0;
+    background-color: black;
 }
 img{
     width: 100%;
+}
+nav{
+    background-color: black;
 }
 nav ul{
     display: flex;
@@ -10,17 +17,57 @@ nav ul{
     align-items: center;
     justify-content: center;
     padding: 20px;
+    margin: 0;
 }
 nav ul li a{
     text-decoration: none;
     padding: 10px;
     border: solid 2px black;
     margin: 5px;
+    border-radius: 50px;
+    color: antiquewhite;
+    background-color: rgb(255 34 119 / 40%);
 }
+
+.article-description{
+    color: antiquewhite;
+}
+
+/* MAIN PRODUCT CONTAINER */
 .article-items{
     display: flex;
     justify-content: space-around;
 }
+
+/* INSIDE PRODUCT CONTAINER with H2 and P color*/
 .item{
     width: 22%;
+    box-sizing:border-box;
+    background-color: rgb(255 34 119 / 40%);
+    color:antiquewhite;
+}
+
+/* PRODUCT IMAGE */
+.item img{
+    height: 150px;
+    margin-top: 10px;
+}
+
+/* PRODUCT, H2 and P Container */
+.item div{
+    padding: 10px;
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(255 34 119 / 40%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color:antiquewhite;
 }
